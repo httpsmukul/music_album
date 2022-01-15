@@ -1,0 +1,136 @@
+.header_main {
+	height: 80px;
+	width: 100%;
+	border: 2px solid black;
+	color: white;
+	background-color: black;
+	margin: 0 0 15px 0;
+	padding: 15px;
+	display: flex;
+	justify-content: space-around;
+	cursor: pointer;
+}
+.header_main:hover {
+	background-color: rgb(24, 24, 24);
+}
+.sort {
+	height: 26px;
+	width: 80px;
+	margin: 25px 0 0 0;
+
+	/* background-color: transparent; */
+	/* color: white; */
+	/* border: none; */
+	/* margin: ; */
+}
+.img_login {
+	height: 50px;
+	/* width: 30px; */
+	background-color: black;
+	margin: 10px 0 0 0;
+}
+.login_bar {
+	height: 150px;
+	width: 200px;
+	border: 1px solid black;
+	border-radius: 5px;
+	position: absolute;
+	background-color: white;
+	padding: 5px;
+	margin: -10px 0 0 80%;
+	cursor: pointer;
+}
+
+.filter {
+	/* height: 130px; */
+	width: 200px;
+	border: 1px solid black;
+	border-radius: 5px;
+	position: absolute;
+	padding: 5px;
+	margin: -10px 0 0 10%;
+	cursor: pointer;
+}
+.login_main {
+	background-color: black;
+	height: 120px;
+	width: 100%;
+	/* display: flex; */
+	/* margin: auto; */
+}
+.login_main img {
+	height: 50px;
+}
+.h1 {
+	color: white;
+	margin: -6px 0 0 0;
+}
+.box {
+	border: 3px solid rgb(15, 15, 15);
+	height: 300px;
+	width: 30%;
+	margin: auto;
+	border-radius: 10px;
+	padding: 15px;
+}
+.input {
+	width: 80%;
+	height: 30px;
+	border: none;
+	margin: 15px;
+	outline: none;
+	font-size: larger;
+	font-weight: 500;
+}
+.input_submit {
+	width: 100%;
+	height: 50px;
+	outline: none;
+	color: white;
+	background-color: black;
+	font-size: larger;
+	font-weight: 500;
+	border-radius: 7px;
+	cursor: pointer;
+}
+
+.input_submit:hover {
+	background-color: white;
+	color: black;
+}
+.albums {
+	display: flex;
+	width: 80%;
+	justify-content: space-between;
+	margin: 20px 0 0 130px;
+	border: 2px solid black;
+	padding: 10px;
+	line-height: 100px;
+}
+.albums img {
+	height: 100px;
+	width: 100px;
+}
+.albums:hover {
+	background-color: rgb(238, 238, 238);
+	cursor: pointer;
+}
+.search {
+	height: 20px;
+	width: 150px;
+}
+.profile_loop {
+	/* height: 15px; */
+	width: 150px;
+	line-height: 100px;
+	text-align: center;
+	border-bottom: 2px solid white;
+}
+.profile_main img {
+	width: 170px;
+	height: 200px;
+}
+.song_main {
+	display: flex;
+	justify-content: center;
+}
